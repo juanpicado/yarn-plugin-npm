@@ -1,0 +1,18 @@
+{
+  "name": "@juanpicado/yarn-plugin-npm-ping",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "builder build plugin"
+  },
+  "dependencies": {
+    "clipanion": "3.2.0-rc.12"
+  },
+  "devDependencies": {
+    "@yarnpkg/builder": "4.0.0-rc.22",
+    "@yarnpkg/cli": "4.0.0-rc.22",
+    "@yarnpkg/core": "4.0.0-rc.22",
+    "@yarnpkg/plugin-npm": "3.0.0-rc.22",
+    "typescript": "^4.8.4"
+  }
+}

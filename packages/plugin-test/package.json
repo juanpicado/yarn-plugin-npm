@@ -1,0 +1,12 @@
+{
+  "name": "@juanpicado/plugin-test",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "builder build plugin"
+  },
+  "devDependencies": {
+    "verdaccio": "6-next"
+  }
+}
