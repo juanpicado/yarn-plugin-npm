@@ -1,1 +1,1 @@
-# yarn-plugin-npm-ping
+# yarn-plugin-npm
