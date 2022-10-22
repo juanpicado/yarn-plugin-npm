@@ -9,10 +9,11 @@
     "clipanion": "3.2.0-rc.12"
   },
   "devDependencies": {
-    "@yarnpkg/builder": "4.0.0-rc.22",
-    "@yarnpkg/cli": "4.0.0-rc.22",
-    "@yarnpkg/core": "4.0.0-rc.22",
-    "@yarnpkg/plugin-npm": "3.0.0-rc.22",
+    "@yarnpkg/builder": "4.0.0-rc.24",
+    "@yarnpkg/cli": "4.0.0-rc.24",
+    "@yarnpkg/core": "4.0.0-rc.24",
+    "@yarnpkg/fslib": "3.0.0-rc.26",
+    "@yarnpkg/plugin-npm": "3.0.0-rc.26",
     "typescript": "^4.8.4"
   }
 }

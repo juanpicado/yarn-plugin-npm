@@ -20,3 +20,5 @@ jobs:
         corepack enable 
         corepack prepare yarn@1.22.19 --activate
     - run: yarn
+    - name: build
+      run: yarn build     
