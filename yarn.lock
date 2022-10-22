@@ -252,9 +252,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@local/plugin-test@workspace:packages/plugin-test":
+"@local/plugin-test@workspace:tests/plugin-test":
   version: 0.0.0-use.local
-  resolution: "@local/plugin-test@workspace:packages/plugin-test"
+  resolution: "@local/plugin-test@workspace:tests/plugin-test"
   dependencies:
     verdaccio: "npm:6-next"
   languageName: unknown

@@ -2,10 +2,11 @@
   "private": true,
   "packageManager": "yarn@4.0.0-rc.26",
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "tests/*"
   ],
   "scripts": {
-    "build": "yarn workspaces foreach run build --include @juanpicado"
+    "build": "yarn workspaces foreach -v run build"
   },
   "devDependencies": {
     "eslint": "latest",

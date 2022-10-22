@@ -4,7 +4,7 @@
   "private": true,
   "main": "src/index.ts",
   "scripts": {
-    "build": "builder build plugin"
+    "build": "echo 0"
   },
   "devDependencies": {
     "verdaccio": "6-next"

@@ -19,14 +19,14 @@ const RAW_RUNTIME_STATE =
     },\
     {\
       "name": "@local/plugin-test",\
-      "reference": "workspace:packages/plugin-test"\
+      "reference": "workspace:tests/plugin-test"\
     }\
   ],\
   "enableTopLevelFallback": true,\
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "fallbackExclusionList": [\
     ["@juanpicado/yarn-plugin-npm-ping", ["workspace:packages/plugin-npm-ping"]],\
-    ["@local/plugin-test", ["workspace:packages/plugin-test"]],\
+    ["@local/plugin-test", ["workspace:tests/plugin-test"]],\
     ["root-workspace-0b6124", ["workspace:."]]\
   ],\
   "fallbackPool": [\
@@ -325,10 +325,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@local/plugin-test", [\
-      ["workspace:packages/plugin-test", {\
-        "packageLocation": "./packages/plugin-test/",\
+      ["workspace:tests/plugin-test", {\
+        "packageLocation": "./tests/plugin-test/",\
         "packageDependencies": [\
-          ["@local/plugin-test", "workspace:packages/plugin-test"],\
+          ["@local/plugin-test", "workspace:tests/plugin-test"],\
           ["verdaccio", "npm:6.0.0-6-next.48"]\
         ],\
         "linkType": "SOFT"\
