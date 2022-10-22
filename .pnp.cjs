@@ -18,15 +18,15 @@ const RAW_RUNTIME_STATE =
       "reference": "workspace:packages/plugin-npm-ping"\
     },\
     {\
-      "name": "@juanpicado/plugin-test",\
+      "name": "@local/plugin-test",\
       "reference": "workspace:packages/plugin-test"\
     }\
   ],\
   "enableTopLevelFallback": true,\
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "fallbackExclusionList": [\
-    ["@juanpicado/plugin-test", ["workspace:packages/plugin-test"]],\
     ["@juanpicado/yarn-plugin-npm-ping", ["workspace:packages/plugin-npm-ping"]],\
+    ["@local/plugin-test", ["workspace:packages/plugin-test"]],\
     ["root-workspace-0b6124", ["workspace:."]]\
   ],\
   "fallbackPool": [\
@@ -308,16 +308,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["@juanpicado/plugin-test", [\
-      ["workspace:packages/plugin-test", {\
-        "packageLocation": "./packages/plugin-test/",\
-        "packageDependencies": [\
-          ["@juanpicado/plugin-test", "workspace:packages/plugin-test"],\
-          ["verdaccio", "npm:6.0.0-6-next.48"]\
-        ],\
-        "linkType": "SOFT"\
-      }]\
-    ]],\
     ["@juanpicado/yarn-plugin-npm-ping", [\
       ["workspace:packages/plugin-npm-ping", {\
         "packageLocation": "./packages/plugin-npm-ping/",\
@@ -330,6 +320,16 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/plugin-npm", "virtual:789dc7c631a6947f13ee39561ce298a2e548b565a11bec007b302b11a253cbdd922d5b9c5491b1e6a7e68cfc87b32541fcb732880437a3b8c77a29971f4b3d1c#npm:3.0.0-rc.26"],\
           ["clipanion", "virtual:e0f5df2758f33dc006e9fff3c00d6b4ebc4e3eafdc189a3bb065d55c9a853f16bd5d82f098ed391955b3b1799968ce1b58ece60af63d1a4ffe34e7ff3f9451b9#npm:3.2.0-rc.12"],\
           ["typescript", "patch:typescript@npm%3A4.8.4#optional!builtin<compat/typescript>::version=4.8.4&hash=701156"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@local/plugin-test", [\
+      ["workspace:packages/plugin-test", {\
+        "packageLocation": "./packages/plugin-test/",\
+        "packageDependencies": [\
+          ["@local/plugin-test", "workspace:packages/plugin-test"],\
+          ["verdaccio", "npm:6.0.0-6-next.48"]\
         ],\
         "linkType": "SOFT"\
       }]\

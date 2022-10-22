@@ -238,14 +238,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@juanpicado/plugin-test@workspace:packages/plugin-test":
-  version: 0.0.0-use.local
-  resolution: "@juanpicado/plugin-test@workspace:packages/plugin-test"
-  dependencies:
-    verdaccio: "npm:6-next"
-  languageName: unknown
-  linkType: soft
-
 "@juanpicado/yarn-plugin-npm-ping@workspace:packages/plugin-npm-ping":
   version: 0.0.0-use.local
   resolution: "@juanpicado/yarn-plugin-npm-ping@workspace:packages/plugin-npm-ping"
@@ -257,6 +249,14 @@ __metadata:
     "@yarnpkg/plugin-npm": "npm:3.0.0-rc.26"
     clipanion: "npm:3.2.0-rc.12"
     typescript: "npm:^4.8.4"
+  languageName: unknown
+  linkType: soft
+
+"@local/plugin-test@workspace:packages/plugin-test":
+  version: 0.0.0-use.local
+  resolution: "@local/plugin-test@workspace:packages/plugin-test"
+  dependencies:
+    verdaccio: "npm:6-next"
   languageName: unknown
   linkType: soft
 
